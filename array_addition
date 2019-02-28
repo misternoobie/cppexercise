@@ -1,0 +1,27 @@
+// Example program
+#include <iostream>
+#include <string>
+
+int array1[10];
+int array2[10];
+int array3[10];
+int x, y;
+
+main()
+{
+    for (x = 0; x < 10; x++){
+      array1[x] = x;
+      std:: cout << "array1 [" << x <<"] = " << array1[x] << "\n";
+    }
+    std::cout << std::endl;
+    for (x = 0; x < 10; x++){
+      array2[x] = x+1;
+      std:: cout << "array2 [" << x <<"] = " << array2[x] << "\n";
+    }
+    std::cout << std::endl;
+    for(x = 0; x < 10; x++){
+      array3[x] = array1[x] + array2[x];
+      std:: cout << "array3 [" << x <<"] = " << array3[x] << "\n";
+    }
+
+}
