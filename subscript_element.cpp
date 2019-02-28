@@ -5,7 +5,7 @@
 int array[10];
 int x, y;
 
-int main()
+main()
 {
     for ( x = 0 ; x < 10; x++){
         array[x] = x;
